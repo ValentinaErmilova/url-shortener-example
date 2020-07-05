@@ -37,7 +37,6 @@ public class URLShortenerController {
         ConfigurableApplicationContext ctx = new AnnotationConfigApplicationContext(SpringRedisConfig.class);
         RedisTemplate redisTemplate = (RedisTemplate) ctx.getBean(REDIS_TEMPLATE);
         String url = redisTemplate.opsForValue().get(id).toString();
-        System.out.println("URL Retrieved: " + url);
 
         if (url == null) {
             throw new RuntimeException("There is no shorter URL for : " + id);
