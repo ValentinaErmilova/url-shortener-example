@@ -8,8 +8,8 @@ The task: REST service implement to shorten links. The service should have to 2 
 Tech stack: Spring Boot, Redis, Maven
 
 How it start: 
-1. Go to https://redis.io/ and you should to install stable version redis.
-2. Download and open project in IDEA, then run to application.
+1. Go to https://redis.io/ and install stable version redis
+2. Download and open project in IDEA, run the application next.
 
 How it use in the postman:
 
