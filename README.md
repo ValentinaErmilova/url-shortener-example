@@ -1,6 +1,6 @@
 # url-shortener-example
 
-The task: REST service implement to shorten links. The service should have to 2 methods for urls.
+The task: REST service implement to shorten links. The service should have 2 methods for urls.
 
 <b>POST</b> - when we shortener url
 <br> <b>GET</b> - when returned full url
